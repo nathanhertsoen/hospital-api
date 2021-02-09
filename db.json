@@ -1,0 +1,71 @@
+{
+  "patients": [
+    {
+      "patientId": 1,
+      "nom": "Garcia",
+      "prenom": "Terri",
+      "genre": "H"
+    },
+    {
+      "patientId": 2,
+      "nom": "Armstrong",
+      "prenom": "Reynaldo",
+      "genre": "H"
+    },
+    {
+      "patientId": 3,
+      "nom": "Murphy",
+      "prenom": "Marion",
+      "genre": "H"
+    }
+  ],
+  "docteurs": [
+    {
+      "docteurId": 1,
+      "nom": "Serges",
+      "prenom": "Mcadam",
+      "genre": "H"
+    },
+    {
+      "docteurId": 2,
+      "nom": "Billy",
+      "prenom": "McGoyer",
+      "genre": "H"
+    },
+    {
+      "docteurId": 3,
+      "nom": "Johnson",
+      "prenom": "McKalagan",
+      "genre": "H"
+    }
+  ],
+  "services": [
+    {
+      "serviceId": 1,
+      "denomination": "urgences",
+      "description": "pour les trucs urgents"
+    },
+    {
+      "serviceId": 2,
+      "denomination": "radiothérapie",
+      "description": "pour les trucs rayonnants"
+    },
+    {
+      "serviceId": 3,
+      "denomination": "chirurgie",
+      "description": "pour les trucs tranchants"
+    }  
+  ],
+  "hospitalizations": [
+    {
+      "serviceId": 1,
+      "docteurId": 1,
+      "patientId": 3
+    },
+    {
+      "serviceId": 2,
+      "docteurId": 3,
+      "patientId": 1
+    }
+  ]
+}
